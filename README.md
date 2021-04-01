@@ -21,7 +21,7 @@ $ source ./.venv/bin/activate
 Install requirements:
 ```bash
 $ pip install -r requirements.txt
-$ pip install ./pseyepy
+$ sudo -H pip install ./pseyepy
 ```
 
 Run code:
