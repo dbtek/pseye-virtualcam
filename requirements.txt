@@ -1,0 +1,6 @@
+pillow
+Cython
+h5py
+pyvirtualcam
+nuitka
+wheel

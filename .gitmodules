@@ -1,0 +1,3 @@
+[submodule "pseyepy"]
+	path = pseyepy
+	url = https://github.com/bensondaled/pseyepy.git
