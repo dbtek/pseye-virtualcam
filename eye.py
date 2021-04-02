@@ -7,6 +7,9 @@ with pyvirtualcam.Camera(width=640, height=480, fps=60, print_fps=True) as vcam:
     
     # initialize all connected cameras
     c = Camera(fps=60, resolution=Camera.RES_LARGE)
+    c.auto_gain = True
+    c.auto_exposure = True
+    c.auto_whitebalance = True
 
     while True:
         frame, timestamp = c.read()
